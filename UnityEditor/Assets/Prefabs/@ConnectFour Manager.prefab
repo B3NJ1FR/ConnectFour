@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7121772938318362697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7121772938318362699}
+  - component: {fileID: 7121772938318362696}
+  - component: {fileID: 5220523900751495675}
+  m_Layer: 0
+  m_Name: '@ConnectFour Manager'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7121772938318362699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7121772938318362697}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7121772938318362696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7121772938318362697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3027b5f1d142e843bedfb5fc2fa9c2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5220523900751495675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7121772938318362697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 544e31ca92fd0604baf13f09ec059652, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redToken3D: {fileID: 1753711087523990195, guid: 4a2407df4d598bb4e9936e37b5ccc8b4,
+    type: 3}
+  yellowToken3D: {fileID: 3784923004551615154, guid: 63bb53b01ce6da54ea1bdc0536adab4a,
+    type: 3}
+  grid3D: {fileID: 0}
+  redToken2D: {fileID: 2978354267327929402, guid: 7658170704cbd1447824ea70f754e263,
+    type: 3}
+  yellowToken2D: {fileID: 4890734824011941159, guid: b0e09326a75ef37408612a83121fbbfa,
+    type: 3}
+  grid2D: {fileID: 0}
